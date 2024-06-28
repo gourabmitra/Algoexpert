@@ -6,7 +6,7 @@ public class TwoNumberSum {
 public static int[] TwoSum(int[] array, int targetSum)
 	{
 		
-	Set<Integer> set = new HashSet<Integer>() ;
+	Set<Integer> set = new HashSet<Integer>();
 	 for(int i:array)
 	{
 		if(set.contains(targetSum-i) && targetSum !=i)
