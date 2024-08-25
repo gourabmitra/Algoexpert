@@ -16,7 +16,7 @@ public class ValidSubsequence {
 			}
 			else
 			{
-				arrayIndex++;
+			 arrayIndex++;
 			}
 		}
 		if(arrayIndex == array.size())
